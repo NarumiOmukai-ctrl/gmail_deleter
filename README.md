@@ -7,11 +7,10 @@
 　- 左サイドバー「サービス」→「Gmail API」を追加
 
 3. 実行手順
- - ステップ実行する関数内容
-   ①checkCount()件数確認（何もしない）
-   ②moveLargeAttachmentsToTrash()5MB超の添付から先に片付け
-   ③moveOldEmailsToTrash()カテゴリ別に一括ゴミ箱移動
-   ④emptyTrash()ゴミ箱を完全削除
+   ①checkCount()　　　　　　　　　　　件数確認（何もしない）
+   ②moveLargeAttachmentsToTrash()　　5MB超の添付から先に片付け
+   ③moveOldEmailsToTrash()　　　　　カテゴリ別に一括ゴミ箱移動
+   ④emptyTrash()　　　　　　　　　　　ゴミ箱を完全削除
    
 注意点：
  - GASは1実行6分制限なので、35,000件超は③を何度か繰り返す必要がある
