@@ -7,9 +7,9 @@
 　- 左サイドバー「サービス」→「Gmail API」を追加
 
 3. 実行手順
- - ①checkCount()　　　　　　　　　　　件数確認（何もしない）
+ - ①checkCount()　　　　　　　　　　 　件数確認（何もしない）
  - ②moveLargeAttachmentsToTrash()　　5MB超の添付から先に片付け
- - ③moveOldEmailsToTrash()　　　　　カテゴリ別に一括ゴミ箱移動
+ - ③moveOldEmailsToTrash()　　　　 　カテゴリ別に一括ゴミ箱移動
  - ④emptyTrash()　　　　　　　　　　　ゴミ箱を完全削除
    
 注意点：
